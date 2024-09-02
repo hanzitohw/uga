@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    transition: color 0.3s ease;
+}
+
+header h1:hover {
+    color: #655b5b;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #777;
+    transition: color 0.3s ease;
+}
+
+header p:hover {
+    color: #333; 
+}
+main{
+    width: 750px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+article{
+    display: block;
+    width: 400px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+section h2:hover {
+    color: #716363;
+    border-color: #827272; 
+}
+
+.job, .school {
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.job:hover, .school:hover {
+    background-color: #f0f8ff; 
+    transform: scale(1.02); 
+}
+
+.job h3, .school h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.job h3:hover, .school h3:hover {
+    color: #786a6a; 
+}
+
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #e4e4e4;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.skills ul li:hover {
+    background-color: #715d5d; 
+    color: #fff; 
+    transform: translateX(5px); 
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1em;
+    color: #777;
+}
